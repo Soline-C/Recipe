@@ -1,0 +1,148 @@
+body{
+    background-color: #DAF7F6;
+    color: #3B3B3B;
+    font-family: "Open Sans";
+    font-size: 12px;
+    line-height: 16px;
+}
+header{
+    background-color:white;    
+    text-align: center;
+}
+h1{
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: montserrat;
+    color: #F16059;
+    padding: 10px 0px;
+    margin: 25px 0px;
+    font-weight: bold;
+    font-size: 48px;
+}
+header img{
+    margin-right: 8px;
+}
+main{
+    width: 1000px;
+    margin:auto;
+}
+.image{
+    float: left;
+    width: 500px;
+    height: 550px;
+}
+.recipe{
+    float: left;
+    padding: 20px;
+    background-color: white;
+    box-sizing: border-box;
+    width: 500px;
+    height:550px ;
+}
+.card{
+    overflow: auto;
+    margin: 10px 0px;
+}
+#cookies{
+    background-image: url("../img/gluten-free-sugar-cookies.jpg");
+    background-size: auto;
+}
+#pesto{
+    background-image: url("../img/nut-free-pesto.jpg");
+    background-size: auto;
+}
+#salad{
+    background-image: url("../img/watermelon-salad.jpg");
+    background-size: auto;
+}
+.recipe h2{
+    font-family: montserrat;
+    font-size: 24px;
+    color: #F16059;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    
+}
+.time{
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    padding: 2px 2px;
+    border: 1px solid #3B3B3B;
+    overflow: auto;        
+}
+
+.prep{
+    float: left;
+    padding-left: 3px;
+    width: 32%;
+    border-right: 1px solid #3B3B3B;
+}
+.cook{
+    float: left;
+    padding-left: 3px;
+    width: 32%;
+    border-right: 1px solid #3B3B3B;
+}
+.total{
+    float: left;
+    padding-left: 3px;
+    width: 32%;   
+}
+
+.time .prep img{
+    width: 15px;
+    height: auto;
+    margin-right: 5px; 
+    vertical-align: middle;  
+}
+.time .cook img{
+    width: 15px;
+    height: auto;
+    margin-right: 5px;   
+    vertical-align: middle;  
+}
+.time .total img{
+    width: 15px;
+    height: auto;
+    margin-right: 5px;  
+    vertical-align: middle;   
+}
+.time-details{
+    display: inline;
+}
+.time strong{
+    font-weight: bolder;
+}
+
+.columns{
+overflow: visible;
+}
+.directions{
+    float: left;
+    width: 240px; 
+}
+.ingredients{
+    float: left;
+    width: 205px;
+    margin-right: 10px;
+} 
+.recipe h3{
+    color: #F16059;
+    text-transform: uppercase; 
+    padding:2px 35px;
+    font-weight: bold;
+    border-top: 1px solid #3B3B3B;
+    border-bottom: 1px solid #3B3B3B;
+    font-size: 12px;
+}
+.ingredients ul{
+padding-left:20px ;
+line-height: 25px;
+list-style-type: square;
+}
+.directions  ol{
+    padding-left:17px ;
+    line-height: 25px;
+    }
